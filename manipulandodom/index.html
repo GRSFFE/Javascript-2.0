@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcel Sandbox</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Facebook repositories</h1>
-    <div id="repos-container"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando Dom com JavaScript puro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="form">
+        <h1>Adicionar tarefa</h1>
+        <form>
+          <input
+            class="tarefa"
+            name="tarefa"
+            id="tarefa"
+            placeholder="Descrição da tarefa"
+          />
+          <button>Adicionar</button>
+        </form>
+      </div>
+
+      <div id="tarefas">
+        
+        <h2>tarefas</h2>
+        
+        <ul>
+           <!-- <li>
+                <span>Tarefa 01</span>
+                <button>Remover</button>
+            </li> -->
+        </ul>
+        
+      </div>
+    </div>
 
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
